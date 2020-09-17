@@ -1,0 +1,632 @@
+html {
+	font-family: 'Lato', sans-serif;	
+}
+
+
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+header {
+	height: 100px;
+	background-color: #de3c4b;
+	margin-bottom: 5px;
+}
+
+/**Header**/
+
+#navegador {
+	width: 700px;
+	height: 100px;
+	background-color: #de3c4b;
+	float: left;
+	border-right: solid;
+	border-color: #FFFFFF;
+}
+
+#navegador li {
+	list-style: none;
+	display: inline-block;
+	padding: 25px;
+	margin-left: 35px;
+	font-size: 18px;
+}
+
+#navegador li a {
+	text-decoration: none;
+	color: #ffffff;
+		}
+
+#navegador li:hover {
+	background-color: #240115;
+	border-radius: 20px;
+	font-size: 135%;
+	text-decoration: underline;
+}
+
+
+#sociales {
+	width: 255px;
+	height: 100px;
+	background-color: #de3c4b;
+	float: right;
+	}
+
+#sociales li {
+	width: 35px;
+	display: inline-block;
+	padding: 30px 1px;
+	margin-left: 55px;
+}
+
+/**Inicio**/
+
+#inicio {
+	height: 400px;
+	background-color: #FEDCD2;
+}
+
+#img {
+	width: 400px;
+	height: 400px;
+	float: right;
+}
+
+#img img {
+	width: 250px;
+	box-shadow: 0 0 10px 10px #ffffff;
+	margin-top: 27px;
+	margin-left: 80px;
+
+}
+
+#frase {
+	width: 455px;
+	height: 400px;
+	float: left;
+}
+
+.texto {
+	width: 450px;
+	height: 350px;
+	float: left;
+	text-align: center;
+	color: #FEDCD2;
+	border-width:5px;  
+    border-style: outset;
+	border-color: #ffffff;
+	margin-left: 70px;
+	margin-top: 20px;
+
+
+}
+
+.texto p {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 30px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+#sobre_mi {
+	height: 400px;
+	background-color: #DCB239;
+	background-image: url(img/foto2.jpeg);
+	background-position: center center;
+	background-size: cover;
+}
+
+#img_izq {
+	width: 600px;
+	height: 400px;
+	float: left;
+}
+
+
+
+#info_der {
+	width: 250px;
+	height: 400px;
+	float: right;
+	margin-left: 5px;
+	color: #ffffff;
+	font-size: 28px;
+	
+}
+
+.texto-info {
+	margin-left: 30px;
+	margin-top: 70px;
+	color: #FFFFFF;
+	font-size: 26px;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.texto-info button {
+	width: 200px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+button a {
+	text-decoration: none;
+	color: #000000;
+}
+
+button:hover {
+	background: #de3c4b;
+}
+
+/** Hobbys**/ 
+
+#hobbys {
+	height: 400px;
+	background-color: #FEDCD2;
+	background-image: linear-gradient(#FEDCD2, #FFFFFF);
+	margin: 0;
+	padding-top: 30px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#hobbys h2 {
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 300;
+	text-decoration: underline;
+	text-shadow: 2px 2px 5px grey;
+}
+
+#hobbys h3 {
+	font-size: 27px;
+}
+
+#hobbys img {
+	max-width: 20%;
+}
+
+#hobbys p {
+	font-size: 20px;
+
+}
+
+#viajar {
+	width: 320px;
+	height: 300px;
+	float: left;
+	
+}
+
+#aprender {
+	width: 315px;
+	height: 300px;
+	float: left;
+	margin-left: 5px;
+		
+}
+
+#soñar {
+	width: 315px;
+	height: 300px;
+	float: left;
+	margin-left: 5px;
+	
+}	
+
+#juego {
+	text-align: center;
+	height: 100px;
+	padding-top: 300px;
+}
+
+#juego p {
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+
+
+
+/** contacto **/ 
+
+#contacto {
+	height: 500px;
+	background-color: #FFFFFF;
+	background-image: linear-gradient(#FFFFFF, #FEDCD2);
+	padding-top: 50px;
+}
+
+#contacto h2 {
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: 300;
+	text-shadow: 2px 2px 5px grey;
+}
+
+#contacto h3 {
+	margin: 10;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	text-shadow: 2px 2px 5px grey;
+	font-style: italic;
+}
+
+form {
+    margin:0;
+    width: 400px;
+}
+ 
+input, textarea {
+    width:380px;
+    height:27px;
+    background:#e00958;
+    border:2px solid #f6f6f6;
+    padding:10px;
+    margin-top:5px;
+    font-size:13px;
+    color:#ffffff;
+}
+ 
+textarea {
+    height:150px;
+}
+
+#boton-enviar input {
+	width: 150px;
+	height: 35px;
+	text-align: center;
+	margin-left: 135px;
+	margin-top: 15px;
+	cursor: pointer;
+
+}
+ 
+#formulario {
+	height: 400px;
+	width: 500px;
+	float: left;
+	margin-left: 250px;
+    cursor:pointer;
+	
+}
+
+#formulario li {
+	list-style: none;
+}
+
+
+
+
+/** footer **/ 
+
+ footer {
+ 	height: 150px;
+ 	background-color: #FEDCD2;
+ }
+
+ #derechos {
+ 	width: 400px;
+	height: 100px;
+	float: left;
+	margin-left: 300px;
+	text-align: center;
+	margin-top: 70px;
+ }
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer {
+	width: 580px;
+}
+
+header {
+	height: 350px;
+}
+
+#navegador {
+	width: 579px;
+	height: 250px;
+	text-align: center;
+	float: none;
+}
+
+#navegador li {
+	display: block;
+	font-size: 15px;
+	margin-left: 0;
+}
+
+#navegador li:hover {
+	border-radius: 100px;
+	font-size: 100%;
+}
+
+#sociales {
+	width: 579px;
+	height: 73px;
+	float: none;
+	text-align: center;
+	margin-top: 25px;
+
+	}
+
+#sociales li {
+	width: 35px;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 45px;
+}
+
+/**Inicio**/
+
+#inicio {
+	height: 400px;
+}
+
+#img {
+	width: 240px;
+	height: 400px;
+	float: left;
+}
+
+#img img {
+	width: 245px;
+	margin-top: 35px;
+	margin-left: 0px;
+
+}
+
+#frase {
+	width: 320px;
+	height: 350px;
+	float: left;
+}
+
+.texto {
+	width: 290px;
+	height: 350px;
+	margin-left: 5px;
+
+}
+
+.texto p {
+	font-size: 23px;
+	padding-top: 8px;
+}
+
+
+#img_izq {
+	width: 350px;
+}
+
+#info_der {
+	width: 200px;
+	float: right;
+}
+
+.texto-info {
+	font-size: 22px;
+}
+
+/** Hobbys**/ 
+
+#hobbys {
+	height: 450px;
+	padding-top: 30px;
+}
+
+#hobbys p {
+	font-size: 20px;
+}
+
+#viajar {
+	width: 190px;
+	height: 200px;
+	float: left;	
+}
+
+#aprender {
+	width:190px;
+	height: 200px;
+	float: left;
+	margin-left: 5px;
+		
+}
+
+#soñar {
+	width: 190px;
+	height: 200px;
+	float: left;
+	margin-left: 5px;
+}	
+
+/** contacto **/ 
+
+#contacto {
+	height: 500px;
+}
+
+
+form {
+    margin:0;
+    width: 400px;
+}
+ 
+
+#formulario {
+	margin-left: 65px;
+}
+
+/** footer **/ 
+
+ #derechos {
+	margin-left: 125px;
+	margin-top: 70px;
+ }
+
+} /** fin media **/
+
+
+
+
+@media all and (max-width: 599px) {
+
+header, section, footer {
+	width: 100%;
+}
+
+header {
+	height: 350px;
+}
+
+#navegador {
+	width: 100%;
+	height: 250px;
+	text-align: center;
+	float: none;
+}
+
+#navegador li {
+	display: block;
+	font-size: 15px;
+	margin-left: 0;
+}
+
+#navegador li:hover {
+	border-radius: 100px;
+	font-size: 100%;
+}
+
+#sociales {
+	width: 100%;
+	height: 73px;
+	float: none;
+	text-align: center;
+	margin-top: 25px;
+
+	}
+
+#sociales li {
+	width: 35px;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 45px;
+}
+
+/**Inicio**/
+
+#inicio {
+	width: 100%;
+	height: 400px;
+}
+
+
+#img {
+	display: none;
+}
+
+#frase {
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+.texto {
+	width: 100%;
+	float: left;
+	text-align: center;
+	border-width:0px;  
+    border-style: none;
+	margin-left: 0px;
+}
+
+/**sobre mi seccion **/
+
+#img_izq {
+	width: 100%;
+	height: 400px;
+}
+
+#info_der {
+	display: none;
+}
+
+/** Hobbys**/ 
+
+#hobbys {
+	height: 1000px;
+}
+
+
+#hobbys h3 {
+	font-size: 27px;
+}
+
+
+#hobbys p {
+	font-size: 18px;
+
+}
+
+#viajar {
+	width: 100%;
+}
+
+#aprender {
+	width: 100%;		
+}
+
+#soñar {
+	width: 100%;
+}	
+
+/** contacto **/ 
+
+#contacto {
+	width: 100%;
+	margin-left: 0;
+}
+#contacto h3 {
+	display: none;
+}
+
+form {
+    margin:0;
+    width: 100%;
+}
+ 
+#formulario {
+	width: 100%;
+	margin-left: 0;
+}
+
+#formulario ul {
+	padding-inline-start: 10px;
+}
+
+
+/** footer **/ 
+
+ #derechos {
+ 	width: 100%;
+	margin-left: 15px;
+ }
+	
+} /** fin media 2 **/

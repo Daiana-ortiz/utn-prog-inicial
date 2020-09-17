@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<title>Daiana Ortiz</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<nav id="navegador">
+			<ul>
+				<li><a href="#inicio">Inicio</a></li>
+				<li><a href="#sobre_mi">Sobre mi</a></li>
+				<li><a href="#hobbys">Hobbys</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul> 
+		</nav>
+		<div id="sociales">
+			<li>
+				<a href="#">
+				<img src="img/insta.svg" alt="icono">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+				<img src="img/fb.svg" alt="icono">
+				</a>
+			</li>
+		</div>
+	</header>
+
+	<section id="inicio">
+		<div id="frase">
+			<div class="texto">
+				<p>"Los grandes cambios siempre vienen acompañados de una fuerte sacudida.</p>
+				<p>No es el fin del mundo.</p>
+				<p>Es el inicio de uno nuevo..."</p>
+			</div>
+		</div>
+		<div id="img">
+			<img id="imagen" src="img/dai.jpeg" alt="Foto-dai" onmouseover="agrandar()" onmouseout="normal()">
+		</div>
+	</section>
+
+	<section id="sobre_mi">
+		<div id="img_izq">
+			<div class="texto-info">
+			<h1>HOLA, Soy Daiana!</h1>
+				<p>Soy estudiante del curso Programador Web Inicial que brinda la UTN.</p>
+				<p>Bienvenido a mi primera pagina web!</p>
+				<button><a href="sobremi.html" target="_blank">Dejame un mensaje</a></button>
+			</div>
+		</div>
+		<div id="info_der">
+		</div>
+	</section>
+
+	<section id="hobbys">
+		<h2>HOBBIES</h2>
+			<div id="viajar">
+				<h3>Viajar</h3>
+					<img src="img/viaje.png">
+					<p>Tuve la suerte de viajar por varios lugares del mundo.</p>
+					<p>Mi lugar favorito sin dudas es Las Vegas!</p>
+			</div>
+			<div id="aprender">
+				<h3>Aprender</h3>
+					<img src="img/aprender.png">
+					<p>Intento superarme en cada momento</p>
+					<p>Tengo facilidad para aprender y me aprovecho de eso.</p>
+			</div>
+			<div id="soñar">
+				<h3>Soñar</h3>
+					<img src="img/magia.png">
+					<p>Me encanta soñar y planificar el camino para poder alcanzarlos.</p>
+					<p>Cueste lo que cueste.</p>
+			</div>
+			<div id=juego>
+			<p>Juguemos!</p>
+			<a id="enlace" href="#" onclick="viajes()">¿Cuál es tu proximo destino?</a>
+			</div>
+	</section>
+
+	
+	<section id="contacto">
+		<h2>Contacto</h2>
+		<div id="formulario">
+			<form action="#" method="post">
+			 <ul>
+			  <li>
+			    <label for="name">Nombre: </label>
+			    <input type="text" id="nombre" name="nombre">
+			  </li>
+			  <li>
+			    <label for="mail">Correo electrónico:</label>
+			    <input type="email" id="mail" name="E-mail">
+			  </li>
+			  <li>
+			    <label for="msg">Mensaje:</label>
+			    <textarea id="msg" name="Mensaje"></textarea>
+			  </li>
+			  <div id ="boton-enviar" >
+			  <input type="submit" value="Enviar" onclick='mensaje()'>
+			  </div>
+			</ul>
+			</form>
+			<h3>Muchas gracias!</h3>
+		</div>
+	</section>
+
+	<footer>
+		<div id="derechos">
+			<p>Todos los derechos reservados 2020 ©</p>
+			<p>Created by: <strong>Me.</strong></p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="funciones.js"></script>
+</body>
+</html>
